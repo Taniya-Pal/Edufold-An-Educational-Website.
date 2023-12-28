@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website - Taniya Pal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!------------------- Course ----------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Unlock Your Potential With Our Online Courses, <br>Learn On Your Schedule With Our Flexible Courses.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>In Intermediate there are so many groups like MPC, BiPC, MEC,CEC and HEC. If you choose, MPC then you comes under Science stream and after this you can either do Engineering or BSc or any Science degree. If you want to go into the Medical field or veterinary or dental choose Bipc.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Once you've made the decision to pursue a college education, it's time to figure out exactly what type of degree to pursue. There are a variety of college degrees and each has advantages and disadvantages. There isn't just one "right" type of college degree. The value of a college degree is a function of what the college degree offers you. Your job is to determine which college degree, or certificate, best helps you achieve your personal, educational and career objectives.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Choosing the right course after graduation is a big problem. Isn’t it? A lot of students and graduates get confused and look for courses after BA or graduation and waste their time and energy. We realize that time is money, and that time that is gone will never come back. Hence we have compiled a list of the best post-graduation courses that are trending these days and are demanded by the industries so that you like others just don’t end up wasting your precious time and would rather invest the same into doing something productive.</p>
+            </div>
+        </div>
+    </section>
+
+<!-------------------Facilities-------------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>College & Campus Facilities · Facilities · COLLEGE HOSTEL · TRANSPORT FACILITY · CAFETERIA · LIBRARY & INFORMATION CENTER · COLLEGE CANTEEN ·</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>World Class Library</h3>
+            <p>A library is a place where a lot of books are kept for reading.
+                There are all types of books including science, literature, famous personalities, economics, commerce, etc.
+                Students love to visit the library and read books.
+                In our Unviversity, there is also a big library. There are hundreds of books.
+                The librarian is very friendly and helps them in finding the books They look for.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>Largest Playground</h3>
+            <p>In large playgrounds, there are spaces divided for different outdoor games like cricket, volleyball, football, etc. Sometimes, the playground also has beautiful fountains and flowering plants that enhance their beauty to a greater extent. People visit the playground for morning and evening walks.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Tasty And Healthy Food</h3>
+            <p>Real. Fresh. Food.
+                Healthy and modern.
+                From farm to plate.
+                Directly from mother earth.
+                Eat natural – eat organic.
+                Choose healthy. Be strong. Live long.
+                We're fresher! We're tastier!
+                Living the green life.</p>
+        </div>
+    </div>
+</section>
+
+
+
+ <!----------------Footer------------------->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> By Taniya Pal</p>
+    </section>
+
+    <!------------Javascript for Toggle Menu----------------->
+  <script>
+    var navlinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+  </script>  
+</body>
+</html>
